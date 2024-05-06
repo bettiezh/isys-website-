@@ -1,0 +1,224 @@
+
+.top{
+    display: flex;
+    justify-content: space-between; /* Items will be spaced apart */
+    align-items: center; /* Align items vertically in the center */
+    background-color: #BDE3FF;
+    color: black;
+    padding: 10px;
+}
+
+#top-right-log{
+    max-width:10%;
+    max-height:10%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #67B6F1;
+    color:white;
+}
+
+.nav-button{
+    padding: 10px;
+    color:black;
+}
+
+#log-in{
+    background-color: black;
+    color:white;
+}
+
+.logo{
+    display: flex; 
+    max-width: 10%;
+    max-height:10%;
+    
+}
+
+.banner{
+    text-align: center;
+}
+
+#logo-img{
+    height: 30%;
+}
+
+
+.container{
+    display:flex;
+    background-color: white;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+
+.card{
+    background-color: #BDE3FF;
+    border-radius: 5px;
+}
+
+.card-grey{
+    background-color: #EEEEEE;
+    margin:30px;
+    border-radius: 5px;
+}
+
+
+
+#block{
+    flex-basis: 30%; 
+    padding: 20px; 
+    margin:20px;
+    height:200px;
+    
+}
+
+.button{
+    background-color: #333333;
+    color: white; 
+    display: flex; 
+    padding: 10px 20px; 
+    text-align: center; 
+    justify-content:space-around;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+
+.button:hover{
+    background-color: #67B6F1;
+}
+
+
+/*log in*/
+.log-in-form{
+    border-radius: 12px; 
+    padding: 50px;
+    margin:20px;
+    background-color: #BDE3FF;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    position: fixed;
+    top: 40%;
+    left: 33%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+/*Delivery*/
+#left{
+    width:50%;
+    height:30%;
+}
+
+
+#right{
+    margin:10px;
+    width:40%;
+    height:30%;
+}
+
+
+/*Match*/
+#profile-pic{
+    margin:30px;
+    width:20%;
+    float:left;
+}
+
+#profile-button{
+    float:left;
+    padding:20px;
+    margin:10px;
+}
+
+#profile-card{
+    padding:20px;
+    height:50%;
+}
+
+
+.confirm-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    
+}
+
+
+/*Search Page*/
+#search-card{
+    width:45%;
+    float:left;
+}
+
+
+/*Chat*/ 
+#chat-box{
+    width:95%;
+    height:100%;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding:20px;
+    margin:20px;
+
+}
+
+.darker{
+    background-color: #BDE3FF;
+    height:15%;
+}
+
+.lighter{
+    background-color: white;
+    height:15%;
+}
+
+.chat-pic{
+    float: left;
+    height:100%;
+}
+
+.chat-pic-right{
+    float: right;
+    height:100%;
+}
+
+.text-left{
+    text-align: left;
+    margin-left: 10%;
+    padding-top:25px;
+  }
+
+.text-right{
+  text-align: right;
+  margin-right: 10%;
+  padding-top:25px;
+}
+
